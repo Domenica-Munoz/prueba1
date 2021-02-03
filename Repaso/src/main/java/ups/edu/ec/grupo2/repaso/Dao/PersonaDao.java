@@ -19,7 +19,7 @@ public class PersonaDao {
 	@Inject
 	private EntityManager em;
 	
-	
+	//hola mundo
 
 	public boolean insertJPA(Persona entity) throws SQLException {
 		em.persist(entity);
